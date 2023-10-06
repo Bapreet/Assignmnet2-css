@@ -1,0 +1,134 @@
+/*Header Styling*/
+header{
+    display:flex;
+    height: 100px;
+    background-color: darkgrey;
+    /* Center content vertically and horizontally */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+h1{
+    /* New font for the title */
+    font-family: 'Playfair Display', serif;
+}
+main {
+    /* Add padding to the main content area */
+    padding: 20px;
+}
+/* Styling for the first section */
+.section1 {
+    /* Display content in two columns */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+/* Styling for the first section's first div */
+.section1 div:nth-child(1){
+    display: flex;
+    /* Center image horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+}
+/* Styling for the image within the first section */
+.section1 div:nth-child(1) img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Styling for the first section's second div */
+.section1 div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+/* Styling for the paragraphs within the first section */
+.section1 div:nth-child(2) p{
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    font-size: 25px;
+}
+/* Styling for the second section */
+.section2{
+    background-color:lightgrey;
+    padding: 15px;
+    gap:10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+/* Styling for divs within the second section */
+.section2 div {
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+/* Styling for the headers within divs in the second section */
+.section2 div h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: darkgrey;
+}
+/* Styling for specific font families and colors within lyrics */
+.section2 div:nth-child(1){
+    font-family: 'Playfair Display', serif;
+}
+.lyrics div:nth-child(2) p:nth-child(2),
+.lyrics div:nth-child(2) p:nth-child(3),
+.lyrics div:nth-child(3) p:nth-child(2),
+.lyrics div:nth-child(4) p:nth-child(7),
+.lyrics div:nth-child(5) p:nth-child(3),
+.lyrics div:nth-child(5) p:nth-child(4),
+.lyrics div:nth-child(5) p:nth-child(6),
+.lyrics div:nth-child(5) p:nth-child(7),
+.lyrics div:nth-child(7) p:nth-child(3),
+.lyrics div:nth-child(7) p:nth-child(7),
+.lyrics div:nth-child(8) p:nth-child(3),
+.lyrics div:nth-child(8) p:nth-child(4),
+.lyrics div:nth-child(8) p:nth-child(7),
+.lyrics div:nth-child(8) p:nth-child(8){
+    font-family: 'Pacifico', cursive;
+    color: darkblue;
+}
+.lyrics div:nth-child(3) p:nth-child(3),
+.lyrics div:nth-child(3) p:nth-child(6),
+.lyrics div:nth-child(6) p:nth-child(3),
+.lyrics div:nth-child(6) p:nth-child(7){
+    font-family: 'Dancing Script', cursive;
+    color: darkgray;
+}
+.lyrics div:nth-child(4) p:nth-child(2),
+.lyrics div:nth-child(7) p:nth-child(2),
+.lyrics div:nth-child(4) p:nth-child(3),
+.lyrics div:nth-child(4) p:nth-child(8),
+.lyrics div:nth-child(7) p:nth-child(8),
+.lyrics div:nth-child(6) p:nth-child(5){
+    font-family: 'Kaushan Script', cursive;
+    color: gold;
+}
+.fonts div:nth-child(2) li{
+    font-size: 20px;
+    line-height: 2.0;
+}
+/* Styling for specific font families and colors within font descriptions */
+.fonts div:nth-child(2) li:nth-child(1){
+    font-family: 'Pacifico', cursive;
+    color:darkblue;
+}
+.fonts div:nth-child(2) li:nth-child(2){
+    font-family: 'Dancing Script', cursive;
+    color:darkgray;
+}
+.fonts div:nth-child(2) li:nth-child(3){
+    font-family: 'Kaushan Script', cursive;
+    color:gold;
+}
